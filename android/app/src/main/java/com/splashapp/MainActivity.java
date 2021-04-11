@@ -11,7 +11,7 @@ public class MainActivity extends ReactActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen.show(this, R.id.lottie); // here
-        SplashScreen.setAnimationFinished(true);
+        SplashScreen.setAnimationFinished(false); // forced to close when hide is called for JS code
         super.onCreate(savedInstanceState);
     }
 

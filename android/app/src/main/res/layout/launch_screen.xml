@@ -12,7 +12,8 @@
         android:id="@+id/lottie"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         app:lottie_autoPlay="true"
         app:lottie_loop="false"
-        app:lottie_rawRes="@raw/splash" />
+        app:lottie_rawRes="@raw/lodingsplash" />
 </LinearLayout>
