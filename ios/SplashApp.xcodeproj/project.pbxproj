@@ -20,7 +20,7 @@
 		6CD30F045A03725FF5F5008D /* libPods-SplashApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CA8DF97BEE314E73328D6B /* libPods-SplashApp-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		ABF5C02542300041D6F8821E /* libPods-SplashApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7C879187EF7A9FFAA9814 /* libPods-SplashApp-tvOSTests.a */; };
-		F46CCC232607452600DCE57B /* lodingSplash.json in Resources */ = {isa = PBXBuildFile; fileRef = F46CCC222607452600DCE57B /* lodingSplash.json */; };
+		F420AD90264F9EC2007CDACF /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F420AD8F264F9EC2007CDACF /* loading.json */; };
 		F4C942742605D7AF00AFD47F /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C942732605D7AF00AFD47F /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +69,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE5C7ACED8D3F1821E0545D3 /* Pods-SplashApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SplashApp-tvOSTests/Pods-SplashApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F46CCC222607452600DCE57B /* lodingSplash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lodingSplash.json; sourceTree = "<group>"; };
+		F420AD8A264F9D55007CDACF /* lodingSplash.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = lodingSplash.json; path = ../../../../Downloads/lodingSplash.json; sourceTree = "<group>"; };
+		F420AD8F264F9EC2007CDACF /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		F4C942722605D7AF00AFD47F /* SplashApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4C942732605D7AF00AFD47F /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,7 +181,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				F46CCC222607452600DCE57B /* lodingSplash.json */,
+				F420AD8F264F9EC2007CDACF /* loading.json */,
+				F420AD8A264F9D55007CDACF /* lodingSplash.json */,
 				13B07FAE1A68108700A75B9A /* SplashApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SplashAppTests */,
@@ -348,8 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				F46CCC232607452600DCE57B /* lodingSplash.json in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F420AD90264F9EC2007CDACF /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

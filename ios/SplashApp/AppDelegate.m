@@ -49,8 +49,8 @@ static void InitializeFlipper(UIApplication *application) {
   
   // Splash Screen Code
   Dynamic *t = [Dynamic new];
-   UIView *animationView = [t createAnimationViewWithRootView:rootView lottieName:@"lodingSplash"]; // change lottieName to your lottie files name
-   animationView.backgroundColor = [UIColor whiteColor]; // change background color
+   UIView *animationView = [t createAnimationViewWithRootView:rootView lottieName:@"loading"]; // change lottieName to your lottie files name
+   animationView.backgroundColor = [UIColor blackColor]; // change background color
    // register LottieSplashScreen to RNSplashScreen
    [RNSplashScreen showLottieSplash:animationView inRootView:rootView];
 
